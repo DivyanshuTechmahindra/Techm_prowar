@@ -190,7 +190,7 @@ public class ProfileView extends AppCompatActivity  implements AppBarLayout.OnOf
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new Fragment_portfolio(), "PORTFOLIO");
         adapter.addFrag(new Fragment_Notes(), "NOTES");
-        adapter.addFrag(new TabFragment(), "PROFILE");
+        adapter.addFrag(new Fragment_profileview(), "PROFILE");
         adapter.addFrag(new TabFragment(), "SOCIAL");
 
         viewPager.setAdapter(adapter);
