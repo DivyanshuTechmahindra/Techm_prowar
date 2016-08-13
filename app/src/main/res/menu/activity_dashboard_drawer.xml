@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hamburger_home_ico"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_customerimformation"
+            android:icon="@drawable/hamburger_customer_info_ico"
+            android:title="Customer Information" />
+        <item
+            android:id="@+id/nav_managelead"
+            android:icon="@drawable/hamburger_leads_ico"
+            android:title="Manage Leads" />
+        <item
+            android:id="@+id/nav_quotes"
+            android:icon="@drawable/hamburger_quotes_ico"
+            android:title="Quotes" />
+        <item
+            android:id="@+id/nav_applicationprocess"
+            android:icon="@drawable/hamburger_process_application_ico"
+            android:title="Application Process" />
+        <item
+            android:id="@+id/nav_productbrochure"
+            android:icon="@drawable/hamburger_brochure_generation_ico"
+            android:title="Product Brochure" />
+        <item
+            android:id="@+id/nav_statustracker"
+            android:icon="@drawable/hamburger_status_tracker_ico"
+            android:title="Status Tracker" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_calculator"
+                android:icon="@drawable/hamburger_calculator_ico"
+                android:title="Calculator" />
+            <item
+                android:id="@+id/nav_meeting"
+                android:icon="@drawable/hamburger_meeting_ico"
+                android:title="Meeting" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/hamburger_logout_ico"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

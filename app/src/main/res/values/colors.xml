@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CC0000</color>
+    <color name="colorPrimaryDark">#b00101</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#f1f1f1</color>
+    <color name="blue">#3F51B5</color>
+    <color name="welcome_text_color">#FF0000</color>
+    <color name="sky_blue">#6698FF</color>
+    <color name="green_apple">#629632</color>
+
+    <color name="appblue">#ff3F51B5</color>
+    <color name="appblue_light">#E8EAF6</color>
+    <color name="appred">#F44336</color>
+    <color name="appred_light">#FFEBEE</color>
+    <color name="appgreen">#43A047</color>
+    <color name="appgreen_light">#E8F5E9</color>
+    <color name="apporange">#EF6C00</color>
+    <color name="apporange_light">#FFF3E0</color>
+
+
+    <color name="cyan_light">#80DEEA</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="orange_light">#FFCA28</color>
+
+    <color name="dialogDividerColor">#C6C0C4</color>
+    <color name="dialogOkColor">#007AFF</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="green">#4CAF50</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="pure_white">#ffffff</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="app_blue">#1180A6</color>
+    <color name="app_blue_dark">#02384A</color>
+    <color name="white2">#ffffff</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#727272</color>
+    <color name="custom_divider_color">#FF79FF00</color>
+
+
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_bg">#263d81</color>
+    <color name="red">#ff0000</color>
+    <color name="blue_light">#2278B4</color>
+
+    <color name="grey">#333333</color>
+    <color name="gray_light">#D8D8D8</color>
+    <color name="grey_dark">#636363</color>
+    <color name="grey_dim">#747474</color>
+    <color name="black">#000000</color>
+    <color name="cell_selection_color">#a8b3d4</color>
+    <color name="color_bf">#ddeca1</color>
+    <color name="color_lt">#8febde</color>
+    <color name="color_dt">#54a8f3</color>
+    <color name="color_nt">#58697c</color>
+    <color name="color_hint">#999999</color>
+    <color name="color_grey_title_bg">#9c9c9c</color>
+    <color name="grey_notification">#EBEBEB</color>
+    <color name="dark_brown">#30201a</color>
+    <color name="radio_button_color">#e75748</color>
+    <color name="title">#F18324</color>
+    <color name="sub_title">#FDA819</color>
+    <color name="bg_yellow">#FECE00</color>
+    <color name="pink">#EA8493</color>
+    <color name="TRANSPARENT">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textDark">#000000</color>
+
+    <color name="orange">#E55929</color>
+    <color name="tab_bg">#eeeeee</color>
+    <color name="report_gray">#dadada</color>
+    <color name="br_light_orange">#F39B4C</color>
+    <color name="br_dark_orange">#F16534</color>
+    <color name="br_dark_broun">#804A1D</color>
+    <color name="br_dark_gray">#484848</color>
+    <color name="br_black">#3F3E3E</color>
+    <color name="brown">#84402C</color>
+    <color name="footer_color">#0E0E0E</color>
+    <color name="footer_separator">#212121</color>
+    <color name="category_bg">#141313</color>
+    <color name="dark_green">#306030</color>
+    <color name="inner_header_bg">#e9e9e9</color>
+    <color name="profile_text_color">#8B4513</color>
+    <color name="lite_grey">#E0E0E0</color>
+    <color name="transparent_bg">#80000000</color>
+    <color name="congrats_color">#1B6E08</color>
+    <color name="gray_more_light">#F2F2F2</color>
+    <color name="order_summary_splitter">#C2C2C2</color>
+    <color name="notification_count_bg">#666666</color>
+
+    <color name="text_color_orange">#E98E09</color>
+    <color name="blueDark">#2278B4</color>
+    <color name="yellow">#FF9900</color>
+
+
+    <color name="over_flow_bg">#E8880A</color>
+    <color name="selected_over_flow_bg">#B82A32</color>
+    <color name="drawer_list_selected_bg">#E31836</color>
+    <color name="drawer_list_bg">#CC000000</color>
+    <color name="drawer_list_text_color">#E98E09</color>
+
+
+    <color name="add_money_title_bg">#212020</color>
+    <color name="text_color_orange_new">#FF9900</color>
+    <color name="subutils_title_text_color">#990033</color>
+    <color name="utility_text_color">#E31836</color>
+    <color name="profile_account_bg">#2B2A2A</color>
+    <color name="contact_us_text_color">#CC0033</color>
+
+    <color name="expandable_circle_color">#E31837</color>
+    <color name="black_new_ui">#161414</color>
+    <color name="white_light">#ecebeb</color>
+
+    <color name="order_summary_status_bg">#1F1E1E</color>
+    <color name="order_total_bg">#242525</color>
+
+    <color name="my_briefcase_bg">#161414</color>
+    <color name="congrats_green">#66CC00</color>
+    <color name="congrats_bg">#2F2E2E</color>
+    <color name="left_drawer_divider_color">#2E2E2D</color>
+    <color name="notification_subtext_color">#CC6600</color>
+    <color name="home_header_bg">#5C0029</color>
+
+    <color name="deals_text">#FF513B</color>
+    <color name="deals_bg">#991A33</color>
+    <color name="home_deals_bg">#282828</color>
+
+
+    <color name="colorHeaderBg">#D9D9D9</color>
+    <color name="civBorderColor">#FF7F7F7F</color>
+    <color name="cvDetailsSubTextColor">#7F7F7F</color>
+    <color name="barchartColor">#008945</color>
+    <color name="xyColor">#282828</color>
+
+
+    <color name="salar_title_green">#018742</color>
+    <color name="salar_title_gray">#484848</color>
+    <color name="salar_hint_color">#484848</color>
+
+
+    <color name="salar_dark_green">#018742</color>
+    <color name="salar_light_white">#D2D2D2</color>
+    <color name="salar_light_red">#EA8493</color>
+    <color name="salar_upload_doc_red">#E41837</color>
+    <color name="salar_upload_doc_orange">#E1792F</color>
+    <color name="salar_upload_doc_green">#06A044</color>
+    <color name="salar_upload_doc_blue">#2278B4</color>
+    <color name="salar_upload_doc_black">#484848</color>
+    <color name="body_white">#F0F0F0</color>
+    <color name="black_opacity_85">#D8000000</color>
+    <color name="list_selector_color">#222222</color>
+    <color name="drawer_text_color">#a4a4a4</color>
+
+
+    <color name="company_text_color">#018742</color>
+    <color name="location_text_color">#a0a0a0</color>
+    <color name="text_list_light_color">#A0A0A0</color>
+
+    <color name="viewed_profile_even_row_text_color">#f5f5f5</color>
+    <color name="vp_seperator_color">#ded6d6</color>
+    <color name="header_bg_color">#06A044</color>
+
+    <color name="drawer_header_bg">#2278b4</color>
+    <color name="saral_lite_grey">#a0a0a0</color>
+
+    <color name="analytics_bottom_bg">#F0F0F0</color>
+    <color name="bar_graph_color">#338BC8</color>
+    <color name="pagerTabStripBg">#484848</color>
+    <color name="pagerTabStripTextColor">#AAAAAA</color>
+    <color name="totalCountTextColor">#06A044</color>
+    <color name="civ_BorderColor">#cccccc</color>
+
+    <color name="saral_list_grey">#f5f5f5</color>
+    <color name="divider_color">#222222</color>
+
+    <color name="floating_buttn_color">#e41837</color>
+
+    <color name="jobs_sub_headings">#474747</color>
+
+    <color name="addQuestionaireColor">#2877B3</color>
+    <color name="addMoreQuesColor">#008724</color>
+    <color name="deleteQuesColor">#008727</color>
+    <color name="addedLocationBorderColor">#B3B3B3</color>
+    <color name="usermangement">#F0F0F0</color>
+    <color name="expire">#ff6a00</color>
+    <color name="close">#a0a0a0</color>
+    <color name="deleted">#c6c6c6</color>
+    <color name="whitenew">#f1f1f1</color>
+
+    <color name="grey_button_normal">#484848</color>
+    <color name="grey_button_selected">#303030</color>
+</resources>

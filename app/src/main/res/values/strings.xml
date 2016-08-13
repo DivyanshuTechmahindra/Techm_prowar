@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrudentialWarNew</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sampletext1">Whether or not to accept to give insurance coverage to the proposer. After studying all the information given, the insurance company may consider him a bad risk and refuse to accept the proposal.</string>
+    <string name="sampletext2">The proposal form provides documentary proof of what the proposer has disclosed about the property person insured. If it is subsequently proven that what is written there is not true, then the insurance company can refuse to pay when a claim for loss is made. This is because the insurance contract is based on utmost good faith. It can be declared null and void if one of the parties is not acting in good faith, that is, he has lied or misrepresented or concealed the material facts.</string>
+    <string name="sampletext3">An insurance proposal form or document is drafted by the insurer who seeks answers from the proposer to the main material aspects of the risk that the proposer is offering to buy. The proposer has to answer all the questions truthfully.</string>
+</resources>
