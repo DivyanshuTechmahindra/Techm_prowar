@@ -2,14 +2,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uk.prudentialwarnew">
 
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
+
+        <!--<meta-data-->
+        <!--android:name="com.google.android.geo.API_KEY"-->
+        <!--android:value="{YOUR_API_KEY}"/>-->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBnxy9IH8uAe-Iq7Fa0fPt-2TXkQfCClBg"/>
+
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
@@ -17,18 +35,32 @@
             android:name=".Dashboard"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".CustomerListMain.activity.CustomerListActivityMain"></activity>
-        <activity android:name=".profileview.ProfileView"
-            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CustomerListMain.activity.CustomerListActivityMain"></activity>
+        <activity
+            android:name=".profileview.ProfileView"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity android:name=".CalendarExmp.CalandarSample"></activity>
+        <activity
+            android:name=".GooglePlace.GooglePlaceSample"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".GoogleMapIntegration.GoogleMapTM"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".GoogleMapIntegration.GoogleMapTM2"></activity>
+        <activity android:name=".GoogleStaticMap.GooglStaticMapExmp"></activity>
+        <activity android:name=".GoogleStaticMap.GoogleMapStatic2"></activity>
     </application>
 
 </manifest>

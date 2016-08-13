@@ -18,6 +18,11 @@ import android.view.MenuItem;
 
 import uk.prudentialwarnew.CalendarExmp.CalandarSample;
 import uk.prudentialwarnew.CustomerListMain.activity.CustomerListActivityMain;
+import uk.prudentialwarnew.GoogleMapIntegration.GoogleMapTM;
+import uk.prudentialwarnew.GoogleMapIntegration.GoogleMapTM2;
+import uk.prudentialwarnew.GooglePlace.GooglePlaceSample;
+import uk.prudentialwarnew.GoogleStaticMap.GooglStaticMapExmp;
+import uk.prudentialwarnew.GoogleStaticMap.GoogleMapStatic2;
 import uk.prudentialwarnew.dashboardLanding.SlidingImage_Adapter;
 import uk.prudentialwarnew.utils.RoundedImageView;
 import android.graphics.Bitmap;
@@ -132,10 +137,17 @@ public class Dashboard extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_customerimformation) {
+            Intent intent = new Intent(Dashboard.this, GoogleMapTM2.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_managelead) {
+            Intent intent = new Intent(Dashboard.this, GooglePlaceSample.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_quotes) {
+            Intent intent = new Intent(Dashboard.this, GoogleMapStatic2.class);
+            startActivity(intent);
+
 
         } else if (id == R.id.nav_applicationprocess) {
 
