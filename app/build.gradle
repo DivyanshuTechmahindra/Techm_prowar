@@ -13,7 +13,8 @@ android {
     }
     defaultConfig {
         applicationId "uk.prudentialwarnew"
-        minSdkVersion 14
+       // minSdkVersion 14
+        minSdkVersion 23
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -72,4 +73,5 @@ dependencies {
     compile 'com.github.clans:fab:1.6.4'
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.android.support:multidex:1.0.1'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
 }
